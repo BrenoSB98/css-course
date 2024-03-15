@@ -1,0 +1,26 @@
+div {
+  font-size: 40px;
+  margin: 20px;
+  padding: 20px;
+  background-color: coral;
+  border: solid 5px;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .verySmall {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px), (orientation: portrait) {
+  .smallPortrait {
+    display: block;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  .interval {
+    display: block;
+  }
+}

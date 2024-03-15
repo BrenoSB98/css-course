@@ -1,0 +1,49 @@
+p {
+  background-color: #aaa;
+}
+
+.observacion {
+  background-color: #5f5;
+  border: dashed 5px;
+  padding: 200px !important;
+  font-size: 40px;
+}
+
+p.observacion {
+  padding: 2px;
+  background: linear-gradient(to right, red, yellow);
+}
+
+/*
+            1. Inline
+            2. ID
+            3. Classe, Pseudo-Classe, atributo
+            4. Elemento, Pseudo-Elementos
+        */
+
+body {
+  font-size: 40px;
+}
+
+div {
+  background-color: #00b;
+  color: #fff;
+}
+
+div[wm-color] {
+  background-color: darkorange;
+}
+
+div.style {
+  background-color: green;
+}
+
+#unique1,
+#unique2 {
+  background-color: #000;
+}
+
+div:hover,
+#unique1:hover {
+  background-color: purple;
+}

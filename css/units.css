@@ -1,0 +1,41 @@
+.absoluteUnits {
+  position: absolute;
+  font-size: 40px;
+  padding: 20px;
+  border: solid 5px #222;
+  margin: 30px;
+  width: 4cm; /* pouco usado */
+  height: 20mm; /* pouco usado */
+  top: 150px;
+  left: 500px;
+}
+
+.relativeUnits {
+  position: absolute;
+  font-size: 4em;
+  padding: 5%;
+  border: solid 1vw #222;
+  margin: 0.8%;
+  width: 20vw;
+  height: 15vh;
+  bottom: 5%;
+  right: 5%;
+}
+
+.out {
+  position: relative;
+  background-color: orange;
+  height: 400px;
+  width: 400px;
+  padding: 50px;
+}
+
+.within {
+  background-color: mediumvioletred;
+  height: 100px;
+  width: 100%;
+  position: static; /* conteudo */
+  position: relative; /* conteudo */
+  position: absolute; /* conteudo + padding */
+  position: fixed; /* viewport */
+}
